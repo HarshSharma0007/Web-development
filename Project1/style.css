@@ -24,6 +24,7 @@ nav{
 }
 .logo img{
     width: 150px;
+    
 }
 .nav-links{
     flex:1;
@@ -43,8 +44,8 @@ nav{
     width: 800px;
     height: 800px;
     position: absolute;
-    top:-10%;
-    left: 25%;
+    top:0%;
+    left: 28%;
     transform: translate(-50%);
 
 }
@@ -55,35 +56,109 @@ nav{
     top:0;
     left: 0;
     border-radius: 50%;
-    background: #ccc;
-
+    transform: rotate(0deg);
+    transition:1s ;
 }
 
 .feature img{
     width: 70px;
 }
 
-.feature img{
+/* .feature img{
     position: absolute;
+} */
+.feature{
+    position: absolute;
+    display: flex;
+    color: #fff;
 }
-.one img{
+
+.feature div{
+    margin-left: 30px ;
+}
+.feature div p{
+    top: -10%;
+    margin-bottom: 8px ;
+}
+
+/* .one img{
     top: 450px;
     right: 50px;
+} */
+.one {
+    bottom: 400px;
+    right: 0px;
 }
-.two img{
+/* .two img{
     top: 150px;
     left: 350px;
+} */
+.two{
+    top: 50px;
+    left: 350px;
+    transform: rotate(-90deg);
 }
-.three img{
+/* .three img{
     bottom: 450px;
     left: 50px;
+} */
+.three{
+    bottom: 400px;
+    left: -0.1px;
+    transform: rotate(-180deg);
 }
-.four img{
+/* .four img{
     bottom: 150px;
     right: 350px;
+} */
+.four {
+    bottom: 10px;
+    left: 350px;
+    transform: rotate(-270deg);
+}
+.mobile{
+    width:210px ;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translateY(-50%);
+    z-index: 1;
+
 }
 
+.controls{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.controls h3{
+    margin: 15px 0;
+    color: #fff;
+    }
+#upBtn{
+    width: 15px;
+    cursor: pointer;
+}
+#downBtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
 
+.overlay{
+    width: 0;
+    height: 0;
+    border-top: 450px solid #fff;
+    border-right: 509px solid transparent;
+    border-bottom: 400px solid #fff;
+    border-left: 400px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
 
 
 
