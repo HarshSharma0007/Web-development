@@ -2,11 +2,8 @@
 In this repository we will be discussing each and everything about web development.
 As I do not know much of it so if you follow we can learn it together.
 
-## Update 1.00
-Created few Projects:
+## Update 1.01
+Created a folder<a href = "https://github.com/HarshSharma0007/Web-development/tree/main/Basics"> Basics </a>.Here you can check all the projects which will help you to learn basics of HTML, CSS and JavaScript.
 
-<a href="https://github.com/HarshSharma0007/Web-development/tree/main/Project1">Project1</a><br>
-<a href="https://github.com/HarshSharma0007/Web-development/tree/main/Project2">Project2</a><br>
-<a href="https://github.com/HarshSharma0007/Web-development/tree/main/Project3">Project3</a><br>
-
-By which I got to learn and understand basics of Javascript, CSS and about intermediate level of HTML. 
+## Update 1.02
+Creating a Simple Website. So that we could show our Super Powers of JavaScript, HTML and CSS.
